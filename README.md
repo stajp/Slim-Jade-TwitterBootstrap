@@ -15,15 +15,20 @@ On top of that, routes are rendering jade converted [Twitter Bootstrap](https://
 Why?
 ---
 
-I need a small and fast framework, and I like Jade. I work as a teacher at a polytechnic and for demonstrations to students how MVC and 
-templating works I need a tool like this.
+I need a small and fast framework, and I like Jade. I found Slim-Jade by Joe Fleming on https://github.com/w33ble/slim-jade , 
+but it used old jade.php, and others updated it to support Slim 2.0.
 
 Originally jade.php was made by Konstantin Kudryashov on https://github.com/everzet/jade.php 
-but as it wasn't updated in long time, so this project uses a complete jade.php rewrite made by 
+but as it wasn't updated in long time, this project uses a complete jade.php rewrite made by 
 hackaugusto, sisoftrg and lukegb. 
 Rewrited jade.php is avaliable at https://github.com/lukegb/jade.php
 
+
+This is not a fork of old Slim-Jade as it's updated in several ways, with added Twitter bootstrap pages.
+I work as a teacher at a polytechnic and I need a tool like this for demonstrations to students on MVC and templating.
+
 This combination wasn't used in any (small or big) production. Yet.
+
 
 
 How?
